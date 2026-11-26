@@ -1,45 +1,45 @@
-# Construção de Backend
+# Construção de Backend — material de estudo
 
-Repositório criado para as aulas teóricas e atividades práticas da disciplina.
+Repositório destinado a material teórico e atividades práticas da disciplina de Construção de Backend.
 
-## Organização do Repositório
+## Objetivo
+Registrar conteúdos sobre criação e manutenção de aplicações backend, incluindo ferramentas e comandos do ecossistema Node.js e npm.
 
-Este repositório está organizado da seguinte forma:
-- **aulas/**: Pasta que contém os códigos das aulas teóricas.
-- **praticas/**: Pasta que contém os códigos das atividades práticas.
+## Tópicos documentados
+- Inicialização de projetos Node.js com npm
+- Instalação e remoção de dependências
+- Scripts do package.json
+- Criação de aplicações Express
+- Execução de servidor de desenvolvimento
+- Testes automatizados
 
-## Comandos Básicos do NPM
+## Comandos úteis
 
-Aqui estão alguns comandos básicos do NPM (Node Package Manager) que podem ser úteis durante o desenvolvimento de APIs.
-
-1. Criar um projeto Node.js
-```shell
+Inicializar um projeto:
+```bash
 npm init -y
 ```
-2. Instalar pacotes
-```shell
-# instala para uso em produção 
-npm install nome-do-pacote            
-# instala como dependência de desenvolvimento
-npm install --save-dev nome-do-pacote 
+
+Instalar dependências:
+```bash
+npm install pacote
+npm install --save-dev pacote
 ```
-3. Desinstalar pacotes
-```shell
-npm uninstall nome-do-pacote
+
+Remover pacote:
+```bash
+npm uninstall pacote
 ```
-4. Executar scripts definidos no package.json
-```shell
-npm run nome-do-script
-```
-5. Criar um projeto base de API com Express Generator
-```shell
+
+Criar aplicação Express:
+```bash
 npx express-generator --no-view nome-do-projeto
 ```
-6. Iniciar o servidor de desenvolvimento com Nodemon
-```shell
-npm run dev
+
+Executar scripts:
+```bash
+npm run nome-do-script
 ```
-7. Executar testes unitários com Jest
-```shell
-npm run test
-```
+
+## Status
+Repositório de notas e estudos. Os comandos são referências e podem precisar de ajustes conforme a estrutura e dependências de cada atividade.
